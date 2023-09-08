@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Inicializar Firebase Admin SDK (reemplaza 'ruta/a/tu/archivo-de-configuracion.json' con la ruta correcta)
-cred = credentials.Certificate("imc-api-2-firebase-adminsdk-rljxf-df411d520c.json")
+cred = credentials.Certificate("api-correo-aaeb7-firebase-adminsdk-c0ea6ba41c.json")
 firebase_admin.initialize_app(cred)
 
 # Conectar con Firestore
