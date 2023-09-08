@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <p>Por favor, ingresa tu correo, peso (en kg) y altura (en metros) para calcular tu IMC.</p>
+        <form id="imc-form" method="POST" action="/calcular-imc">
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" name="peso" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="altura">Altura (m):</label>
+                <input type="number" id="altura" name="altura" step="0.01" required>
+            </div>
+            <button type="submit">Calcular IMC</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
